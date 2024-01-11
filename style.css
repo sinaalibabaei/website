@@ -1,3 +1,36 @@
-h1 {
-  color: gold;
+.darkbg {
+  background-color: rgb(4, 0, 11);
+  font: italic bold 1em/1 "fira code", sans-serif;
+  color: aliceblue;
+}
+
+.gstyle {
+  border: 2px solid goldenrod;
+  width: fit-content;
+  height: fit-content;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.gstyle img {
+  width: 225px;
+  height: 160px;
+}
+
+.gstyle img:hover {
+  height: 163px;
+}
+
+.gstyle:hover {
+  border: 2px solid greenyellow;
+}
+
+.pstyle {
+  text-align: center;
+}
+
+.pstyle:hover {
+  color: darkorchid;
 }
