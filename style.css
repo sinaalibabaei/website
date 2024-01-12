@@ -4,6 +4,14 @@
   color: aliceblue;
 }
 
+.main_div {
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
 .gstyle {
   border: 2px solid goldenrod;
   width: fit-content;
