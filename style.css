@@ -12,19 +12,18 @@
   padding: 10px;
   margin: 5px;
   border-radius: 20px;
+  transition: all 0.4s;
 }
 
 .gstyle img {
   width: 225px;
   height: 160px;
-}
-
-.gstyle img:hover {
-  height: 163px;
+  border-radius: 20px;
 }
 
 .gstyle:hover {
   border: 2px solid greenyellow;
+  border-radius: 30px;
 }
 
 .pstyle {
